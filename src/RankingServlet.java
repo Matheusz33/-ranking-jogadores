@@ -8,7 +8,7 @@ import jakarta.servlet.annotation.*;
 @WebServlet("/ranking")
 public class RankingServlet extends HttpServlet {
 
-   private static final String URL = "jdbc:mysql://mysql.ferrovia.interno:3306/ranking";
+private static final String URL = "jdbc:mysql://mysql.ferrovia.interno:3306/ferrovia";
 private static final String USER = "raiz";
 private static final String PASS = "GfRgaVLRPNzrkTPydkDSXSCGxsysLEDy";
 
