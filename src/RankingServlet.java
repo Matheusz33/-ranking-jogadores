@@ -10,7 +10,7 @@ public class RankingServlet extends HttpServlet {
 
 private static final String URL = "jdbc:mysql://mysql.railway.internal:3306/ferrovia";
 private static final String USER = "root";
-private static final String PASS = "GfRgaVLRPNzrkTPydkDSXSCGxsysLEDy";
+private static final String PASS = "fLSKxlTTrvkbydKlNkNUhORjOBbAcyRb";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
