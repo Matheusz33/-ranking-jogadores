@@ -8,9 +8,9 @@ import jakarta.servlet.annotation.*;
 @WebServlet("/ranking")
 public class RankingServlet extends HttpServlet {
 
-    private static final String URL = "jdbc:mysql://localhost:3306/ranking";
-    private static final String USER = "root";
-    private static final String PASS = "root123";
+   private static final String URL = "jdbc:mysql://mysql.ferrovia.interno:3306/ranking";
+private static final String USER = "raiz";
+private static final String PASS = "GfRgaVLRPNzrkTPydkDSXSCGxsysLEDy";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
